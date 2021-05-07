@@ -7,7 +7,7 @@ It makes use of the following services -
 3) Coinbase market rate API https://developers.coinbase.com/api/v2 . 
 
 # How does it work
-The functionality is implemented as Azure Functions using Node.js. The code invokes Coinbase API to fetch rates e.g., for BTC to USD pair. Then it invokes SAP Market Rates Management service on SAP API Business Hub to upload the market rates. The rates from SAP Market Rates Management service can be used in connected systems such as SAP S/4HANA.  
+The functionality is implemented as Azure Functions using Node.js. The code invokes Coinbase API to fetch rates e.g., for BTC to USD pair. Then it invokes SAP Market Rates Management service on SAP API Business Hub to upload the market rates. The rates from SAP Market Rates Management service can be used in connected systems such as SAP S/4HANA. Primary source code is in uploadsapmarketdata/index.js file in this repository.   
 
 # How to deploy it for testing purpose
 1) It needs SAP API Key from SAP API Business Hub and Coinbase bearer token from Coinbase Developer API. You'll need to create a file secret.json and place this file in the project root. The contents of this file need to look like shown below -  
