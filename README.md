@@ -1,2 +1,2 @@
-# az-function-sap-crypto-market-rate-data
+# Azure Functions example to upload cryptocurrency rates to SAP market data
 Azure function example to upload cryptocurrency rates to SAP market data
