@@ -1,3 +1,5 @@
+Read IMPORTANT DISCLAIMER mentioned at the the bottom of this page before you proceed further.
+
 # Azure Functions example to upload cryptocurrency rates to SAP market data
 This example enables to upload market rate for crypto currencies such as BTC, ETH etc. using Azure Functions to SAP.  
 
