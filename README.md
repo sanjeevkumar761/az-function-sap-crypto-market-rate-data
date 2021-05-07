@@ -2,7 +2,7 @@
 This example enables to upload market rate for crypto currencies such as BTC, ETH etc. using Azure Functions to SAP.  
 
 It makes use of the following services -  
-1) Azure Functions
+1) Azure Functions https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-node 
 2) SAP Market Rates Management, Bring Your Own Rates https://discovery-center.cloud.sap/protected/index.html#/serviceCatalog/market-rates-bring-your-own-rates?region=europe(frankfurt)&service_plan=market-rates,-bring-your-own-rates- and SAP API Business Hub
 3) Coinbase market rate API . 
 
